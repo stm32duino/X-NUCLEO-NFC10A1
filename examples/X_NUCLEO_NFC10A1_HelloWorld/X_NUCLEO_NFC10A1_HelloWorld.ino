@@ -1,6 +1,6 @@
 /**
  ******************************************************************************
- * @file    X_NUCLEO_NFC08A1_HelloWorld.ino
+ * @file    X_NUCLEO_NFC10A1_HelloWorld.ino
  * @author  AST
  * @version V1.0.0
  * @date    2 September 2021
