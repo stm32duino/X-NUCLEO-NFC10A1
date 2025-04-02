@@ -1,6 +1,6 @@
 /**
  ******************************************************************************
- * @file    X_NUCLEO_NFC08A1_HelloWorld.ino
+ * @file    X_NUCLEO_NFC010A1_HelloWorld.ino
  * @author  AST
  * @version V1.0.0
  * @date    2 September 2021
@@ -361,7 +361,7 @@ void setup()
 
     discParam.notifyCb             = NULL;
     discParam.totalDuration        = 1000U;
-    discParam.techs2Find           = RFAL_NFC_TECH_NONE;          /* For the demo, enable the NFC Technlogies based on RFAL Feature switches */
+    discParam.techs2Find           = RFAL_NFC_TECH_NONE;          /* For the demo, enable the NFC Technologies based on RFAL Feature switches */
 
     
 #if RFAL_FEATURE_NFCA
