@@ -361,7 +361,7 @@ void setup()
 
     discParam.notifyCb             = NULL;
     discParam.totalDuration        = 1000U;
-    discParam.techs2Find           = RFAL_NFC_TECH_NONE;          /* For the demo, enable the NFC Technlogies based on RFAL Feature switches */
+    discParam.techs2Find           = RFAL_NFC_TECH_NONE;          /* For the demo, enable the NFC Technologies based on RFAL Feature switches */
 
     
 #if RFAL_FEATURE_NFCA
